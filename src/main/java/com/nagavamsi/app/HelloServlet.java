@@ -24,7 +24,7 @@ public class HelloServlet extends HttpServlet {
         out.println("justify-content:center;align-items:center;height:100vh;margin:0}");
         out.println(".box{background:#17334d;padding:40px;border-radius:12px;text-align:center}");
         out.println("h1{color:#f2a63b}</style></head><body><div class='box'>");
-        out.println("<h1>Deployed Successfully!</h1>");
+        out.println("<h1>Deployed by Docker CI/CD!</h1>");
         out.println("<p>Deployed to Apache Tomcat with GitHub Actions</p>");
         out.println("<p>Server: " + server + "</p>");
         out.println("<p>Host: " + host + "</p>");
